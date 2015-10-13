@@ -19,7 +19,7 @@ import org.camunda.bpm.engine.delegate.JavaDelegate;
 public class CalculateInterestService implements JavaDelegate {
 
   public void execute(DelegateExecution delegate) throws Exception {
-    System.out.println("Spring Bean invoked");
+    System.out.println("Spring Bean invoked"); 
 
   }
 
